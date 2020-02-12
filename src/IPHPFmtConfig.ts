@@ -4,6 +4,7 @@ export default interface IPHPFmtConfig {
   psr1: boolean;
   psr1_naming: boolean;
   psr2: boolean;
+  psr12: boolean;
   indent_with_space: number | boolean;
   enable_auto_align: boolean;
   visibility_order: boolean;
